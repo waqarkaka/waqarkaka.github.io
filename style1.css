@@ -1,0 +1,33 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background: url(images/header.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.btn-primary{
+    background-color:rgb(171, 60, 12);
+    border-color: rgb(171, 60, 12);
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 300px;
+}
+.btn-primary:hover{
+    background-color: rgb(145, 40, 11);
+    border-color: rgb(145, 40, 11);
+    border-width: 4px;
+}
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+hr{
+    border-color: brown;
+    max-width: 5rem;
+    border-width: 4px;
+}
+.buffer{
+    height: 260px;
+}
